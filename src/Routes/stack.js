@@ -12,17 +12,9 @@ export const StackRoutes = () => {
         headerShown: false,
       }}
     >
+      <Screen name="Login" component={Login} />
 
-        <Screen
-          name="Login"
-          component={Login}
-        />
-
-        <Screen
-          name="SemCadastro"
-          component={SemCadastro}
-        />
-
+      <Screen name="SemCadastro" component={SemCadastro} />
     </Navigator>
   );
 };
